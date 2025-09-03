@@ -1,6 +1,8 @@
 # FBrick-File-Packer-Unpacker
 This is simple packing &amp; unpacking program without any compression method
 
+C++ version used is: C++20
+
 The main function is:
 1. CreatePack("Input folder directory that contain your files", "Output directory for packed file", "Name of packed file");
 2. UnpackFile("Input packed file", "Output folder directory");
