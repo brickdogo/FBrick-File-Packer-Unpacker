@@ -10,7 +10,7 @@ How Packing Function Work:
 2. Then, this function will create pack header (that called descriptor inside code) the structure is:
    - "Watermark"<Flag_1><Flag_2>"File Name 1"<Flag_1>"Size of File 1"<Flag_1><Flag_2>"File Name #" and so on.
 3. After that, it will create packed file, the structure be like:
-   -<Pack Header><Data File 1><Data File 2><Data File #> and so on.
+   -<Pack header/descriptor><Data File 1><Data File 2><Data File #> and so on.
 
 How Unpacking Function Work:
 1. When the "UnpackFile" functin called, it will open the file.
